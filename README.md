@@ -6,7 +6,7 @@ The data used in this analysis can be found at the following links:
 - https://www.kaggle.com/datasets/anandaramg/taxi-trip-data-nyc
 - https://data.cityofnewyork.us/Transportation/NYC-Taxi-Zones/d3c5-ddgc
 
-`taxi_clean.csv` contains additional columns from the `taxi_tripdata.csv`:
+taxi_clean.csv contains additional columns from the taxi_tripdata.csv:
 - `day_of_week`: Day of the week the trip took place, with 0=Monday and 6=Sunday
 - `day_of_month`: Day of the month the trip took place
 - `hour_of_day`: Hour of the day the trip started
@@ -20,3 +20,4 @@ For more information regarding the columns in the taxi trips dataset see: https:
 The following are available make commands:
 - `env`: Creates the environment and configures it by activating it and installing ipykernel into it
 - `remove-env`: Removes the configured environment
+- `data/taxi_clean.csv`: Create the cleaned taxi_tripdata.csv
