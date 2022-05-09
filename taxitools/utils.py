@@ -28,7 +28,7 @@ def filter_data(df, filter_specif, filter_range):
         The keys are the column names in both dictionaries. 
         The values in filter_specif are what the values in the column should equal to
         The values in filter_range are 2 element lists. The first is the min range, and second is a max range
-        If you want just one sided filters, i.e. x >= 8, pass in [8, 'inf'], or ['-inf', 8] for x < 8
+        If you want one sided filters, i.e. x >= 8, pass in [8, 'inf'], or ['-inf', 8] for x < 8
         If you only need specific values, pass in None for filter_range variable and vice versa'''
     
     if filter_specif is not None:
