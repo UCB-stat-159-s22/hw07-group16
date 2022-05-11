@@ -29,7 +29,7 @@ def test_aggregateAndGroupMultiple():
 	df = ut.open_taxi_clean_df()
 	agg_dict = {'trip_duration': 'mean', 'fare_amount': 'max'}
 	test = ut.aggregateAndGroupMultiple(df, 'day_of_month', agg_dict)
-	assert len(columns) == 3
+	assert len(test.columns) == 3
 	assert len(test) == 31
 	assert 'day_of_month' in test.columns
 	assert 'trip_duration' in test.columns
@@ -39,7 +39,7 @@ def test_open_taxi_clean_df():
 	df = ut.open_taxi_clean_df()
 	assert len(df.columns) == 25
 	assert len(df) == 79970
-	assert str(df_add.VendorID.dtype) == 'Int64'
+	assert str(df.VendorID.dtype) == 'Int64'
 	
 def test_merge_location_data():
 	df = ut.open_taxi_clean_df()
@@ -52,7 +52,7 @@ def test_merge_location_data():
 
 def test_plot_heatmap():
 	df = ut.open_taxi_clean_df()
-	test = ut.aggregateAndGroup(df_add, 'PULocationID', 'fare_per_mile', 'mean', True)
+	test = ut.aggregateAndGroup(df, 'PULocationID', 'fare_per_mile', 'mean', True)
 	test_geom = ut.merge_location_data(test, 'PULocationID')
 	ut.plot_heatmap(test_geom, 'the_geom', 'fare_per_mile', 'Test Figure', 'test_file', 70)
 	assert(exists('figures/test_file.png'))
