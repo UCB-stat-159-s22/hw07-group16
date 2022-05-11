@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+taxitools/__init__.py
+taxitools/utils.py
+taxitools.egg-info/PKG-INFO
+taxitools.egg-info/SOURCES.txt
+taxitools.egg-info/dependency_links.txt
+taxitools.egg-info/requires.txt
+taxitools.egg-info/top_level.txt

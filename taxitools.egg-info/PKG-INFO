@@ -1,3 +1,19 @@
+Metadata-Version: 2.1
+Name: taxitools
+Version: 0.0.1
+Summary: A Python library for analyzing NYC taxi data
+Home-page: UNKNOWN
+Author: Stephanie Trinh, Rohan Goel, Daniel Ho, Xingrui Ye
+Author-email: stephanie_trinh@berkeley.edu, rgoel777@berkeley.edu, dho799@berkeley.edu, xyekk826@berkeley.edu
+License: BSD 3-Clause License
+Keywords: tools,ligo
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9.9
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9.9
+Description-Content-Type: text/markdown
+
 # Analysis of Taxi Trip Data in NYC
 This repository contains all the data and notebooks for data cleaning and analysis needed to obtain the conclusions made regarding taxi trips in NYC.
 
@@ -22,4 +38,5 @@ The following are available make commands:
 - `remove-env`: Removes the configured environment
 - `data/taxi_clean.csv`: Create the cleaned taxi_tripdata.csv
 - `clean`: Remove all figures from the /figures and /tables directory
-- `all`: Create all figures and tables from the notebooks
+
+
