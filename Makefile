@@ -8,3 +8,8 @@ remove-env:
 
 data/taxi_clean.csv:
 	jupyter execute taxi_clean.ipynb
+	
+.PHONY: clean
+clean:
+	rm -f figures/*.png
+	rm -f tables/*.csv
