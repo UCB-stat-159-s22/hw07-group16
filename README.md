@@ -21,3 +21,4 @@ The following are available make commands:
 - `env`: Creates the environment and configures it by activating it and installing ipykernel into it
 - `remove-env`: Removes the configured environment
 - `data/taxi_clean.csv`: Create the cleaned taxi_tripdata.csv
+- `clean`: Remove all figures from the /figures and /tables directory
