@@ -1,5 +1,7 @@
 # Analysis of Taxi Trip Data in NYC
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-s22/hw07-group16.git/HEAD?labpath=main.ipynb)
+
+[![Binder] ( https://mybinder.org/v2/gh/UCB-stat-159-s22/hw07-group16/HEAD?labpath=main.ipynb )
+
 This repository contains all the data and notebooks for data cleaning and analysis needed to obtain the conclusions made regarding taxi trips in NYC. The main notebook contains a summary of all our findings regarding fares vs. different metrics of time, tip analysis, a tip prediciton model, and fares and trips vs. location of taxi zones.
 
 ## Data
