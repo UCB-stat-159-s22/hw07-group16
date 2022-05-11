@@ -13,7 +13,7 @@ data/taxi_clean.csv:
 clean:
 	rm -f figures/*.png
 	rm -f tables/*.csv
-
+	
 .PHONY: all
 all:
 	jupyter execute busy_time_and_fares_analysis.ipynb
