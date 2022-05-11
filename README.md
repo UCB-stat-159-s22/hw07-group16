@@ -23,3 +23,9 @@ The following are available make commands:
 - `data/taxi_clean.csv`: Create the cleaned taxi_tripdata.csv
 - `clean`: Remove all figures from the /figures and /tables directory
 - `all`: Create all figures and tables from the notebooks
+
+## Testing
+To fix import errors and get tests to run properly: 
+- make remove-env + make env if needed
+- conda install -c anaconda pytest
+- pip install . inside hw07-group16 directory

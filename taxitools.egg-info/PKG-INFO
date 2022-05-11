@@ -38,5 +38,6 @@ The following are available make commands:
 - `remove-env`: Removes the configured environment
 - `data/taxi_clean.csv`: Create the cleaned taxi_tripdata.csv
 - `clean`: Remove all figures from the /figures and /tables directory
+- `all`: Create all figures and tables from the notebooks
 
 
