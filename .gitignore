@@ -2,3 +2,4 @@
 taxitools/__pycache__/
 taxitools/tests/__pycache__/
 taxitools.egg-info/
+build/
